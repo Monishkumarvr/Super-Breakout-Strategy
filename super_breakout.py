@@ -80,4 +80,4 @@ st.write(df)
 df_1 = df[(df['Close - SMA 200'] > -20) & (df['Close - SMA 200'] <0) & (df['Close']>df['SMA 5']) & (df['Close']>df['SMA 10']) & (df['Close']>df['SMA 15']) & (df['Close']>df['SMA 20']) & (df['Close']>df['SMA 50']) & (df['Close']>df['SMA 100']) & (df['Close']<df['SMA 200'])]
 df_1 = df_1.sort_values('Close - SMA 200')
 
-st.wrute(df_1)
+st.write(df_1)
